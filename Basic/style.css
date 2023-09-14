@@ -1,0 +1,26 @@
+#image{
+ display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
+    gap: 2rem;
+    flex-wrap: wrap;
+    border: 2px solid yellow;
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#image img{
+    width: 30%;
+    border-radius: 5rem;
+    justify-self: center;
+    
+}
+
+#container{
+    border: 3px solid red;
+    justify-content: center;
+    margin: auto;
+   
+}
